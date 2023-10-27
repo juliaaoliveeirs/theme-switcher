@@ -1,0 +1,94 @@
+:root {
+  --dark: #292c35;
+  --light: #f1f1f1;
+  --label: #111;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--dark);
+}
+
+.light {
+  background: var(--light);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#switch {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#switch button {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  border: none;
+  background-color: var(--light);
+  border-radius: 50%;
+  cursor: pointer;
+  right: 8px;
+  z-index: 1;
+  animation: slide-in 0.2s;
+}
+
+.light #switch button {
+  animation: slide-out 0.2s forwards;
+}
+
+#switch span {
+  background: var(--label);
+  width: 236px;
+  height: 102px;
+  border-radius: 58px;
+}
+
+#switch span::after {
+  content: '';
+  position: absolute;
+  background: url('assets/sun.svg') no-repeat center;
+  background-size: cover;
+  width: 86px;
+  height: 86px;
+  top: 10px;
+  right: 10px;
+}
+
+#switch span::before {
+  content: '';
+  position: absolute;
+  background: url('assets/moon.svg') no-repeat center;
+  background-size: cover;
+  width: 86px;
+  height: 86px;
+  top: 10px;
+  left: 10px;
+}
+
+/* animation */
+@keyframes slide-in {
+  from {
+    left: 8px;
+  }
+  to {
+    left: 60%;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    left: 60%;
+  }
+  to {
+    left: 8px;
+  }
+}
