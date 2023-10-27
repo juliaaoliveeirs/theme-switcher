@@ -1,8 +1,8 @@
 <h2 align="center">Theme Switcher</h2>
 
 <h3 align="center">
-  <a href="#interrobang-motivo">Sobre</a>&nbsp;|&nbsp;
-  <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;|&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;|&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;|&nbsp;
   <a href="#licença">Licença</a>
 </h3>
 
@@ -10,19 +10,22 @@
 
 <!-- <img src="https://readme-maker.herokuapp.com/uploads/17f931a766815550-foodfy.PNG" width="1200"> -->
 
-![Animais Fantásticos](assets/theme.gif)
+![Theme Switcher](assets/theme.gif)
 
-## :interrobang: Sobre
+## 🚀 Tecnologias
 
-Página que contém um toggle para alternar entre o tema dark e light.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## :rocket: Tecnologias Utilizadas
-
-O projeto foi desenvolvido utilizando as seguintes tecnologias
-
+- HTML e CSS
 - JavaScript
-- HTML
-- CSS
+- Git e Github
+- Figma
+
+## 💻 Projeto
+
+A página contém um toggle para alternar entre o tema dark e light.
+
+- [Acesse o projeto finalizado, online](https://juliaaoliveeirs.github.io/theme-switcher/)
 
 ## Licença
 
